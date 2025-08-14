@@ -15,7 +15,7 @@ const db = mysql.createConnection({
   host: process.env.DB_HOST || 'localhost',
   user: process.env.DB_USER || 'root',
   password: process.env.DB_PASSWORD || '',
-  database: process.env.DB_NAME || 'TraficSecure1' // Cambiado al nombre correcto
+  database: process.env.DB_NAME || 'TraficSecure1'
 });
 
 // Conectar a la base de datos
